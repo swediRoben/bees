@@ -674,7 +674,7 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-CslqBGzC.js", "imports": ["/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/assets/root-CGB74Ym7.js", "imports": ["/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": ["/assets/root-DE_zzLHD.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/assets/home-JL2ozaYi.js", "imports": ["/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": ["/assets/home-CC8e0mhQ.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/assets/manifest-87caa601.js", "version": "87caa601", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/bees/assets/entry.client-CslqBGzC.js", "imports": ["/bees/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/bees/assets/root-CGB74Ym7.js", "imports": ["/bees/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": ["/bees/assets/root-DE_zzLHD.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/bees/assets/home-JL2ozaYi.js", "imports": ["/bees/assets/chunk-ZYFC6VSF-CBBTUsSH.js"], "css": ["/bees/assets/home-CC8e0mhQ.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/bees/assets/manifest-63cfd2a2.js", "version": "63cfd2a2", "sri": void 0 };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_middleware": false, "unstable_optimizeDeps": false, "unstable_splitRouteModules": false, "unstable_subResourceIntegrity": false, "unstable_viteEnvironmentApi": false };
@@ -682,7 +682,7 @@ const ssr = true;
 const isSpaMode = false;
 const prerender = [];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
-const publicPath = "/";
+const publicPath = "/bees/";
 const entry = { module: entryServer };
 const routes = {
   "root": {
