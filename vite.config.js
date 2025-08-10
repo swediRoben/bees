@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/bees/",
   plugins: [react()],
+  base: "/bees/",
   build: {
     rollupOptions: {
       input: '/index.html',
