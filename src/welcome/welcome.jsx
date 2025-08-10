@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-export function Welcome() { 
+export default function Welcome() { 
   const [activeSection, setActiveSection] = useState("dashboard");
   const [openedModal, setOpenedModal] = useState(null); // null ou 'reportModal' / 'publicationModal' / 'userModal'
 

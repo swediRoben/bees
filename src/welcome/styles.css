@@ -132,7 +132,24 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 68rem; /* largeur fixe sur grand écran */
 }
+
+/* Responsive : pour écrans ≤ 1024px (tablettes et plus petits) */
+@media (max-width: 1024px) {
+  .main-content {
+    margin-left: 0;  /* plus de marge à gauche */
+    width: 100%;     /* prend toute la largeur */
+  }
+}
+
+/* Optionnel : pour très petits écrans (mobile) */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 1rem; /* un peu de padding intérieur */
+  }
+}
+
 
 /* Header */
 .header {
